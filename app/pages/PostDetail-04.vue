@@ -1,12 +1,11 @@
 <script setup>
     const title = ref("Tuzzin Products accelerating Time to Market and reducing Total Cost of Ownership");
     const description = ref("Our products are handcrafted by our experts with sound understanding of domain, market needs and technology. Our products are built after evaluating the need and ensuring that there is a market for the same. We don’t build products to build up our portfolio. Tuzzin products have helped multiple companies reduce their development cycle and launch their own Product within a matter of weeks (not months or years). Tuzzin has also helped umpteen clients pick and chose solution components that they like and embed as features within their product. As our components and products are well settled in the market- they need minimum maintenance, thereby reducing the Total cost of Ownership. Tuzzin is proud to be a different company that believes in faster time to market and reduced total cost of ownership.");
-    const image = ref("/images/Blog-Post-Coomon-Img.jpg")
 </script>
 
 <template>
     <div class="max-w-5xl mx-auto shadow-lg overflow-hidden">
-        <img :src="image" alt="Post Image" class="w-full h-96 object-contain" />
+        <img src="/images/Blog-Post-Coomon-Img.jpg" alt="Post Image" class="w-full h-96 object-contain" />
         <div class="p-6">
             <h1 class="text-primary text-3xl font-bold mb-4">{{ title }}</h1>
             <p class="text-muted text-lg mb-4">{{ description }}</p>

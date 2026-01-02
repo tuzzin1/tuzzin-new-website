@@ -1,12 +1,11 @@
 <script setup>
     const title = ref("Tuzzin starts Employee Gym Incentive");
     const description = ref("Work Life Balance is critical for productivity. Exercise plays a crucial role in unwinding from work and helping with health.Tuzzin has started special incentive of additional bonus to employees hitting the Gym. Every employee will get special bonus if they regularly go to Gym. Tuzzin is committed to employee health and is proud of introducing such an initiative.");
-    const image = ref("/images/Blog-Post-Coomon-Img.jpg")
 </script>
 
 <template>
     <div class="max-w-5xl mx-auto shadow-lg overflow-hidden">
-        <img :src="image" alt="Post Image" class="w-full h-96 object-contain" />
+        <img src="/images/Blog-Post-Coomon-Img.jpg" alt="Post Image" class="w-full h-96 object-contain" />
         <div class="p-6">
             <h1 class="text-primary text-3xl font-bold mb-4">{{ title }}</h1>
             <p class="text-muted text-lg mb-4">{{ description }}</p>
