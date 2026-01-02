@@ -13,7 +13,7 @@
             <div class="flex items-center mt-10">
                 <span class="mr-2 text-muted">Share on:</span>
                 <NuxtLink to="#" target="_blank" class="mr-2">
-                <Icon name="mdi:twitter" class="text-primary"/>
+                <Icon name="uil:facebook" class="text-primary" />
                 </NuxtLink>
                 <NuxtLink to="#" target="_blank" class="mr-2">
                 <Icon name="uil:twitter" class="text-primary"></Icon>
