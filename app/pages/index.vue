@@ -62,12 +62,12 @@ useSeoMeta({
         />
       </template>
       <img
-        :src="page.section.images.desktop"
+        src="/images/tuzzin-home-page-img-01.jpg"
         :alt="page.section.title"
         class="hidden lg:block 2xl:hidden left-0 w-full max-w-2xl"
       >
       <img
-        :src="page.section.images.mobile"
+        src="/images/tuzzin-home-page-img-01.jpg"
         :alt="page.section.title"
         class="block lg:hidden 2xl:block 2xl:w-full 2xl:max-w-2xl"
       >
