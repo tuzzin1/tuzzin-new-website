@@ -117,5 +117,6 @@ useSeoMeta({
       
         <LazyStarsBg />
         </UPageSection>
+        <USeparator :ui="{ border: 'border-primary/20' }" />
     </div>
 </template>

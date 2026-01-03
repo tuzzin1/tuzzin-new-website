@@ -5,12 +5,12 @@
 
 <template>
     <div class="max-w-5xl mx-auto shadow-lg overflow-hidden">
-        <img src="/images/Blog-Post-Coomon-Img.jpg" alt="Post Image" class="w-full h-96 object-contain" />
+        <img src="/images/tuzzin-transparency.jpg" alt="Post Image" class="w-full h-96 object-contain" />
         <div class="p-6">
             <h1 class="text-primary text-3xl font-bold mb-4">{{ title }}</h1>
             <p class="text-muted text-lg mb-4">{{ description }}</p>
 
-            <div class="flex items-center mt-10">
+            <!-- <div class="flex items-center mt-10">
                 <span class="mr-2 text-muted">Share on:</span>
                 <NuxtLink to="#" target="_blank" class="mr-2">
                 <Icon name="uil:facebook" class="text-primary" />
@@ -21,12 +21,13 @@
                 <NuxtLink to="#" target="_blank" class="mr-2">
                 <Icon name="uil:linkedin" class="text-primary"></Icon>
                 </NuxtLink>
-            </div>
+            </div> -->
         </div>
         <div class="absolute rounded-full dark:bg-primary blur-[250px] size-40 sm:size-50 transform -translate-x-1/2 left-1/2 -translate-y-80" />
       
         <LazyStarsBg />
     </div>
+    <USeparator :ui="{ border: 'border-primary/20' }" />
 </template>
 
 <style lang="css" scoped>

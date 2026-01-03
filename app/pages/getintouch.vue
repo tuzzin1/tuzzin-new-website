@@ -88,7 +88,7 @@ useHead({
                         <div class="relative flex flex-col flex-1 lg:grid gap-x-8 gap-y-4 p-4 sm:p-6">
                             <div class="flex flex-col flex-1 mx-auto">
                                 <div class="flex-1">
-                                    <div class="text-pretty text-primary text-center text-[22px] font-bold text-transform: uppercase">Locate Us</div>
+                                    <div class="text-pretty text-primary text-center text-[22px] font-bold text-transform: uppercase">Our Locations</div>
                                 </div>
                                 <div class="pt-4 mt-auto">
                                     <div data-orientation="horizontal" class="relative group/user flex items-center gap-2.5">
@@ -111,7 +111,7 @@ useHead({
                                     <div data-orientation="horizontal" class="relative group/user flex items-center gap-2.5">
                                         <div class="mx-auto">
                                             <p class="text-muted text-center text-[15px] font-semibold">India: 091-7624098111 /091-84600 56525</p>
-                                            <p class="text-muted text-center text-[15px] font-semibold mt-4">USA - 1321 Upland Dr. #5140 Huston, TX77043</p>
+                                            <p class="text-muted text-center text-[15px] font-semibold mt-4">USA - (001) 63139 28099</p>
                                         </div>
                                     </div>
                                 </div>
@@ -141,6 +141,6 @@ useHead({
       
             <LazyStarsBg />
         </UPageHero>
-        <!-- <USeparator :ui="{ border: 'border-(--ui-primary)/30' }" /> -->
+        <USeparator :ui="{ border: 'border-primary/20' }" />
     </div>
 </template>

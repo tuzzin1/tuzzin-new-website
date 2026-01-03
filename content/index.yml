@@ -20,7 +20,7 @@ hero:
     #   to: https://github.com/nuxt-ui-templates/landing
     #   target: _blank
 section:
-  title: We are [Tuzzin Technology]{.text-primary} Solution Provider for Banks
+  title: We are [Tuzzin]{.text-primary}, a Technology Solution Provider for Banks.
   description: Transform your development with our personalized banking solutions.
   images:
     mobile: '/images/tuzzin-home-page-img-01.jpg'

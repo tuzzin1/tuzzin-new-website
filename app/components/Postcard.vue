@@ -103,7 +103,7 @@
     <div class="rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row mx-auto py-4 max-w-5xl mt-3">
         <div class="w-full md:w-1/3 p-4">
         <img
-            src="/images/Blog-Post-Coomon-Img.jpg"
+            src="/images/tuzzin-gym.jpg"
             alt="Post Image"
             class="w-full h-auto object-cover"
         />
@@ -125,7 +125,7 @@
     <div class="rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row mx-auto py-4 max-w-5xl mt-3">
         <div class="w-full md:w-1/3 p-4">
         <img
-            src="/images/Blog-Post-Coomon-Img.jpg"
+            src="/images/tuzzin-techno-snap.jpg"
             alt="Post Image"
             class="w-full h-auto object-cover"
         />
@@ -147,7 +147,7 @@
     <div class="rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row mx-auto py-4 max-w-5xl mt-3">
         <div class="w-full md:w-1/3 p-4">
         <img
-            src="/images/Blog-Post-Coomon-Img.jpg"
+            src="/images/tuzzin-market-cost.jpg"
             alt="Post Image"
             class="w-full h-auto object-cover"
         />
@@ -169,7 +169,7 @@
     <div class="rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row mx-auto py-4 max-w-5xl mt-3">
         <div class="w-full md:w-1/3 p-4">
         <img
-            src="/images/Blog-Post-Coomon-Img.jpg"
+            src="/images/tuzzin-transparency.jpg"
             alt="Post Image"
             class="w-full h-auto object-cover"
         />
