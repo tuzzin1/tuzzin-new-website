@@ -9,7 +9,7 @@ useHead({
     { key: 'theme-color', name: 'theme-color', content: color }
   ],
   link: [
-    { rel: 'icon', href: 'favicon.ico' }
+    { rel: 'icon', href: '../favicon.ico' }
   ],
   htmlAttrs: {
     lang: 'en'
@@ -17,8 +17,8 @@ useHead({
 })
 
 useSeoMeta({
-  ogImage: './images/tuzzin-home.jpg',
-  twitterImage: './images/tuzzin-home.jpg',
+  ogImage: '/images/tuzzin-home.jpg',
+  twitterImage: '/images/tuzzin-home.jpg',
   twitterCard: 'summary_large_image'
 })
 </script>
