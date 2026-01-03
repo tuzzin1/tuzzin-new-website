@@ -151,7 +151,7 @@ useSeoMeta({
         />
       </UPricingPlans>
     </UPageSection>
-    <USeparator :ui="{ border: 'border--primary/30' }" />
+    <USeparator :ui="{ border: 'border-primary/30' }" />
 
     <!-- GET IN TOUCH -->
     <UPageSection
@@ -208,7 +208,7 @@ useSeoMeta({
       <LazyStarsBg />
     </UPageSection>
 
-    <USeparator />
+    <USeparator :ui="{ border: 'border-primary/30' }" />
 
     <!-- <UPageCTA
       v-bind="page.cta"
