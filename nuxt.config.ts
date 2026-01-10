@@ -39,10 +39,11 @@ export default defineNuxtConfig({
   },
 
   app: {
+    baseURL: '/tuzzin-new-website/',
     head: {
       script: [
         {
-          src: './sociocs/sociocs.client.js',
+          src: '/sociocs/sociocs.client.js',
           defer: true
         }
       ]
