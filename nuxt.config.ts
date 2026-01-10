@@ -43,7 +43,7 @@ export default defineNuxtConfig({
     head: {
       script: [
         {
-          src: '/sociocs.client.js',
+          src: 'sociocs.client.js',
           defer: true
         }
       ]
