@@ -39,7 +39,6 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/tuzzin-new-website/',
     head: {
       script: [
         {
