@@ -34,7 +34,7 @@ export default defineNuxtConfig({
     head: {
       script: [
         {
-          src: '/sociocs.client.js',
+          src: '/tuzzin-new-website/sociocs.client.js',
           defer: true
         }
       ],
@@ -42,7 +42,7 @@ export default defineNuxtConfig({
         {
           rel: 'icon',
           type: 'image/x-icon',
-          href: '/favicon.ico'
+          href: '/tuzzin-new-website/favicon.ico'
         }
       ]
     }
