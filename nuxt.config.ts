@@ -29,24 +29,31 @@ export default defineNuxtConfig({
     }
   },
 
+  app: {
+    baseURL: '/tuzzin-new-website/',
+    head: {
+      script: [
+        {
+          src: '/sociocs.client.js',
+          defer: true
+        }
+      ],
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: '/favicon.ico'
+        }
+      ]
+    }
+  },
+
   eslint: {
     config: {
       stylistic: {
         commaDangle: 'never',
         braceStyle: '1tbs'
       }
-    }
-  },
-
-  app: {
-    baseURL: '/tuzzin-new-website/',
-    head: {
-      script: [
-        {
-          src: 'sociocs.client.js',
-          defer: true
-        }
-      ]
     }
   }
 })
