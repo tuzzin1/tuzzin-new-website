@@ -44,6 +44,7 @@ useSeoMeta({
         />
       </template>
     </UPageHero>
+    
     <!-- We are Tuzzin Technology Solution Provider for Banks -->
     <UPageSection
       :description="page.section.description"
@@ -72,7 +73,6 @@ useSeoMeta({
         class="block lg:hidden 2xl:block 2xl:w-full 2xl:max-w-2xl"
       >
     </UPageSection>
-
     <USeparator :ui="{ border: 'border-primary/30' }" />
 
     <!-- Our Banking Solutions Portfolio -->
@@ -102,7 +102,6 @@ useSeoMeta({
         </div>
       </template>
     </UPageSection>
-
     <USeparator :ui="{ border: 'border-primary/30' }" />
 
     <!-- COUNTS -->
@@ -112,7 +111,7 @@ useSeoMeta({
       :title="page.pricing.title"
       :description="page.pricing.description"
       :plans="page.pricing.plans"
-      :ui="{ title: 'text-left @container relative', description: 'text-left' }"
+      :ui="{ title: 'text-left @container relative', description: 'text-left'}"
     >
       <template #headline>
         <UColorModeImage
@@ -185,18 +184,18 @@ useSeoMeta({
       </template>
 
       <UContainer>
-        <UPageColumns class="xl:columns-3">
+        <UPageColumns class="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 space-y-0">
           <UPageCard
             v-for="(testimonial, index) in page.testimonials.items"
             :key="index"
             variant="subtle"
             :description="testimonial.quote"
-            :ui="{ description: 'text-primary text-center text-[22px] font-bold text-transform: uppercase', wrapper:'mx-auto items-center', }"
+            :ui="{ description: 'text-primary text-center text-[22px] font-bold text-transform: uppercase', wrapper:'mx-auto items-center'}"
           >
             <template #footer>
               <UUser
                 v-bind="testimonial.user"
-                :ui="{name: 'text-muted text-center text-[15px] font-semibold', description: 'text-muted text-center text-[15px] font-semibold mt-4', wrapper:'mx-auto'}"
+                :ui="{name: 'text-muted text-center text-[15px] font-semibold', description: 'text-muted text-center font-semibold mt-4', wrapper:'mx-auto items-center'}"
                 size="xl"
               />
             </template>
@@ -207,7 +206,6 @@ useSeoMeta({
       
       <LazyStarsBg />
     </UPageSection>
-
     <USeparator :ui="{ border: 'border-primary/30' }" />
 
     <!-- <UPageCTA

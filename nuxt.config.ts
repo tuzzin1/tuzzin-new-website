@@ -36,5 +36,16 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
+  },
+
+  app: {
+    head: {
+      script: [
+        {
+          src: 'sociocs.client.js',
+          defer: true
+        }
+      ]
+    }
   }
 })

@@ -52,64 +52,125 @@ useSeoMeta({
                         <p class="my-5 leading-7 text-pretty"><span class="text-primary">Banking</span> Solutions</p>
                     </div>
                 </h2>
-                <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
-                    <div data-orientation="vertical" class="relative flex rounded-lg ring ring-default group mx-auto" style="">
-                        <div class="relative flex flex-col flex-1 lg:grid gap-x-8 gap-y-4 p-4 sm:p-4">
-                            <!-- <img src="/images/sm_yoKYC.png" alt="" srcset=""> -->
-                            <NuxtLink to='/solutions-yokyc'>
-                                <img alt="YoKYC" class="dark:block size-auto mx-auto" src="/images/sm_yoKYC.png">
-                            </NuxtLink>
-                            <div class="flex flex-col gap-2 mx-auto">
-                                <span class="text-lg font-semibold text-center text-primary">YoKYC</span>
-                                <span class="text-md text-muted text-center">Automated CKYC Solution.</span>
+                <div class="relative">
+                    <ul class="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 mt-16 items-center">
+                        <div data-orientation="vertical" class="relative flex rounded-lg ring ring-default group mx-auto" style="">
+                            <div class="relative flex flex-col flex-1 lg:grid gap-x-8 gap-y-4 p-4 sm:p-6">
+                                <div data-slot="wrapper" class="flex flex-col flex-1 mx-auto items-center">
+                                    <div data-slot="body" class="flex-1">
+                                        <NuxtLink to='/solutions-yokyc'>
+                                            <img alt="YoKYC" class="dark:block size-auto mx-auto" src="/images/sm_yoKYC.png">
+                                        </NuxtLink>
+                                    </div>
+                                    <div data-slot="footer" class="pt-4 mt-auto">
+                                        <div data-orientation="horizontal" data-slot="root" class="relative group/user flex items-center gap-2.5">
+                                            <div data-slot="wrapper" class="mx-auto items-center">
+                                                <p data-slot="name" class="text-center text-lg font-semibold text-primary">
+                                                   YoKYC 
+                                                </p>
+                                                <p data-slot="description" class="text-sm text-muted text-center font-semibold mt-4">
+                                                  Automated CKYC Solution.  
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div data-orientation="vertical" class="relative flex rounded-lg ring ring-default group mx-auto" style="">
-                        <div class="relative flex flex-col flex-1 lg:grid gap-x-8 gap-y-4 p-4 sm:p-4">
-                            <NuxtLink to="/solutions-yoinstaloans">
-                                <img alt="YoInstaLoans" class="dark:block size-auto mx-auto" src="/images/sm_yoinstaloan.png">
-                            </NuxtLink>
-                            <div class="flex flex-col gap-2">
-                                <span class="text-lg font-semibold text-center text-primary">YoInstaLoans</span>
-                                <span class="text-md text-muted text-center">Loan Origination System.</span>
+                        <div data-orientation="vertical" class="relative flex rounded-lg ring ring-default group mx-auto" style="">
+                            <div class="relative flex flex-col flex-1 lg:grid gap-x-8 gap-y-4 p-4 sm:p-6">
+                                <div data-slot="wrapper" class="flex flex-col flex-1 mx-auto items-center">
+                                    <div data-slot="body" class="flex-1">
+                                        <NuxtLink to="/solutions-yoinstaloans">
+                                            <img alt="YoInstaLoans" class="dark:block size-auto mx-auto" src="/images/sm_yoinstaloan.png">
+                                        </NuxtLink>
+                                    </div>
+                                    <div data-slot="footer" class="pt-4 mt-auto">
+                                        <div data-orientation="horizontal" data-slot="root" class="relative group/user flex items-center gap-2.5">
+                                            <div data-slot="wrapper" class="mx-auto items-center">
+                                                <p data-slot="name" class="text-center text-lg font-semibold text-primary">
+                                                   YoInstaLoans 
+                                                </p>
+                                                <p data-slot="description" class="text-sm text-muted text-center font-semibold mt-4">
+                                                  Loan Origination System.  
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div data-orientation="vertical" class="relative flex rounded-lg ring ring-default group mx-auto" style="">
-                        <div class="relative flex flex-col flex-1 lg:grid gap-x-8 gap-y-4 p-4 sm:p-4">
-                            <NuxtLink to="/solutions-yorecovery">
-                                <img alt="YoRecovery" class="dark:block size-auto mx-auto" src="/images/smRecovery.png">
-                            </NuxtLink>
-                            <div class="flex flex-col gap-2">
-                                <span class="text-lg font-semibold text-center text-primary">YoRecovery</span>
-                                <span class="text-md text-muted text-center">NPA Recovery Tracking System.</span>
+                        <div data-orientation="vertical" class="relative flex rounded-lg ring ring-default group mx-auto" style="">
+                            <div class="relative flex flex-col flex-1 lg:grid gap-x-8 gap-y-4 p-4 sm:p-6">
+                                <div data-slot="wrapper" class="flex flex-col flex-1 mx-auto items-center">
+                                    <div data-slot="body" class="flex-1">
+                                        <NuxtLink to="/solutions-yorecovery">
+                                            <img alt="YoRecovery" class="dark:block size-auto mx-auto" src="/images/smRecovery.png">
+                                        </NuxtLink>
+                                    </div>
+                                    <div data-slot="footer" class="pt-4 mt-auto">
+                                        <div data-orientation="horizontal" data-slot="root" class="relative group/user flex items-center gap-2.5">
+                                            <div data-slot="wrapper" class="mx-auto items-center">
+                                                <p data-slot="name" class="text-center text-lg font-semibold text-primary">
+                                                   YoRecovery
+                                                </p>
+                                                <p data-slot="description" class="text-sm text-muted text-center font-semibold mt-4">
+                                                  NPA Recovery Tracking System.  
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div data-orientation="vertical" class="relative flex rounded-lg ring ring-default group mx-auto" style="">
-                        <div class="relative flex flex-col flex-1 lg:grid gap-x-8 gap-y-4 p-4 sm:p-4">
-                            <NuxtLink to="/solutions-yocts">
-                                <img alt="YoCTS" class="dark:block size-auto mx-auto" src="/images/sm_yoCTS.png">
-                            </NuxtLink>
-                            <div class="flex flex-col gap-2">
-                                <span class="text-lg font-semibold text-center text-primary">YoCTS</span>
-                                <span class="text-md text-muted text-center">CTS Merge & Inward Clearing.</span>
+                        <div data-orientation="vertical" class="relative flex rounded-lg ring ring-default group mx-auto" style="">
+                            <div class="relative flex flex-col flex-1 lg:grid gap-x-8 gap-y-4 p-4 sm:p-6">
+                                <div data-slot="wrapper" class="flex flex-col flex-1 mx-auto items-center">
+                                    <div data-slot="body" class="flex-1">
+                                        <NuxtLink to="/solutions-yocts">
+                                            <img alt="YoCTS" class="dark:block size-auto mx-auto" src="/images/sm_yoCTS.png">
+                                        </NuxtLink>
+                                    </div>
+                                    <div data-slot="footer" class="pt-4 mt-auto">
+                                        <div data-orientation="horizontal" data-slot="root" class="relative group/user flex items-center gap-2.5">
+                                            <div data-slot="wrapper" class="mx-auto items-center">
+                                                <p data-slot="name" class="text-center text-lg font-semibold text-primary">
+                                                   YoCTS 
+                                                </p>
+                                                <p data-slot="description" class="text-sm text-muted text-center font-semibold mt-4">
+                                                  CTS Merge & Inward Clearing.  
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div data-orientation="vertical" class="relative flex rounded-lg ring ring-default group mx-auto" style="">
-                        <div class="relative flex flex-col flex-1 lg:grid gap-x-8 gap-y-4 p-4 sm:p-4">
-                            <NuxtLink to="/solutions-yoleads">
-                                <img alt="YoLead" class="dark:block size-auto mx-auto" src="/images/sm_Yolm.png">
-                            </NuxtLink>
-                            <div class="flex flex-col gap-2">
-                                <span class="text-lg font-semibold text-center text-primary">YoLead</span>
-                                <span class="text-md text-muted text-center">Track every lead across <br/>Branches and respond to every <br/>lead within 24 hours flat.</span>
+                        <div data-orientation="vertical" class="relative flex rounded-lg ring ring-default group mx-auto" style="">
+                            <div class="relative flex flex-col flex-1 lg:grid gap-x-8 gap-y-4 p-4 sm:p-6">
+                                <div data-slot="wrapper" class="flex flex-col flex-1 mx-auto items-center">
+                                    <div data-slot="body" class="flex-1">
+                                        <NuxtLink to="/solutions-yoleads">
+                                            <img alt="YoLead" class="dark:block size-auto mx-auto" src="/images/sm_Yolm.png">
+                                        </NuxtLink>
+                                    </div>
+                                    <div data-slot="footer" class="pt-4 mt-auto">
+                                        <div data-orientation="horizontal" data-slot="root" class="relative group/user flex items-center gap-2.5">
+                                            <div data-slot="wrapper" class="mx-auto items-center">
+                                                <p data-slot="name" class="text-center text-lg font-semibold text-primary">
+                                                   YoLead 
+                                                </p>
+                                                <p data-slot="description" class="text-sm text-muted text-center font-semibold mt-4">
+                                                  Track every lead across Branches <br/>and respond to every lead within<br/> 24 hours flat.  
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </ul>
+                    </ul>
+                </div>
             </div>
         </div>
 
